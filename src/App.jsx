@@ -5,6 +5,7 @@ import s from './App.module.scss'
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Blog from './components/pages/Blog/Blog';
+import Contacts from './components/pages/Contacts/Contacts';
 import Home from './components/pages/Home/Home';
 import Order from './components/pages/Order/Order';
 import Regulations from './components/pages/Regulations/Regulations';
@@ -26,6 +27,7 @@ function App() {
         <Route path='blog' element={<Blog/>}/>
         <Route path='order' element={<Order/>}/>
         <Route path='regulations' element={<Regulations/>}/>
+        <Route path='contacts' element={<Contacts/>}/>
       </Routes>
       </main>
       <Footer/>

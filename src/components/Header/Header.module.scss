@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(49, 15, 50, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.headerNav {
+    height: 60px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.logoLink {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    gap: 10px;
+
+    &:hover .logoNamed{
+        color: white;
+    }
+}
+
+.logoImage {
+    width: 40px;
+    height: 40px;
+}
+
+.logoNamed {
+    color: rgb(189, 189, 189);
+    font-size: 18px;
+}
+
+.navLinks {
+    width: 373px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navLink {
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    &:hover {
+        color: white;
+    }
+}
+

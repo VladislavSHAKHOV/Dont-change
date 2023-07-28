@@ -1,0 +1,22 @@
+.coin {
+    margin-top: 25px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:first-child{
+        margin-top: 30px;
+    }
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coinIcon {
+    width: 30px;
+    height: 30px;
+}

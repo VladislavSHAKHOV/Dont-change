@@ -1,0 +1,80 @@
+.footer {
+    width: 100%;
+    background-color: rgba(49, 15, 50, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 15px 0px;
+    width: 1200px;
+    display: flex;
+}
+
+.mainInfo {
+    width: 220px;
+}
+
+.logoPart {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo {
+    width: 25px;
+}
+
+.info {
+    font-size: 12px;
+    color: rgb(178, 178, 178);
+    &:nth-child(3) {
+        margin-top: 15px;
+    }    
+    &:nth-child(2) {
+        margin-top: 5px;
+    }
+}
+
+.links {
+    margin-top: 29px;
+    gap: 11px;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(178, 178, 178);
+    text-decoration: underline;
+}
+
+.footerLink {
+    color: rgb(178, 178, 178);
+}
+
+.support {
+    margin-top: 29px;
+    gap: 11px;
+    margin-left: 124px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(178, 178, 178);
+}
+
+.cardsSwift {
+    margin-left: 255px;
+    display: flex;
+    margin-top: 29px;
+    gap: 13px;
+}
+
+.visa {
+    width: 92px;
+    height: 30px;
+}
+
+.masterCard {
+    width: 50px;
+    height: 30px;
+}

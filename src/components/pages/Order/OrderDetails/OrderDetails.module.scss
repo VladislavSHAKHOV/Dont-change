@@ -1,0 +1,37 @@
+
+.orderDetails{
+    width: 480px;
+    padding: 20px 30px 37px 30px;
+    background-color: rgba(49, 15, 50, 1);
+    border-radius: 20px;
+    margin-bottom: 348px;
+    position: relative;
+    height: 362px;
+}
+
+.orderId{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    color: white;
+    background-color: rgba(100, 97, 152, 1);
+    height: 28px;
+    border-radius: 6px;
+}
+
+.isLoading {
+    color: white;
+}

@@ -1,0 +1,26 @@
+.attention {
+    margin-top: 45px;
+    padding: 30px;
+    background-color: rgba(49, 15, 50, 1);
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.attentionList {
+    width: 100%;
+}
+
+.attentionItem {
+    margin-top: 15px;
+    list-style-type: none;
+    &:first-child {
+        margin-top: 0px;
+    }
+    &::before {
+        content: "•";
+        color: rgba(100, 97, 152, 1);
+        margin-right: 5px;
+    }
+    
+}

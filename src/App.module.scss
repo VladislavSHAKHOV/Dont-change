@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.app {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background: url('./assets/images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}

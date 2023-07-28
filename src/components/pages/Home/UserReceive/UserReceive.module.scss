@@ -1,0 +1,61 @@
+.userSend{
+    width: 380px;
+    padding: 30px;
+    background-color: rgba(49, 15, 50, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sendTitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send {
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+}
+
+.nameOfSendedCoin {
+    margin-top: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.sendCoinIcon{
+    width: 43px;
+    height: 43px;
+}
+
+.sendInput{
+    margin-top: 35px;
+    padding-left: 30px;
+    font-size: 16px;
+    width: 320px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid rgb(34, 11, 35);
+    background-color: rgb(36, 11, 36);
+    color: white;
+    outline: none;
+    &:focus {
+        border: 1px solid rgba(100, 97, 152, 1);
+
+    }
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+}
+
+.coinsAmount {
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+}

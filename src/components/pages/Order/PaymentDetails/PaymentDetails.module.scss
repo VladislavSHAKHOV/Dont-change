@@ -1,0 +1,75 @@
+.paymentDetails {
+    width: 690px;
+    background-color: rgba(49, 15, 50, 1);
+    padding: 21px 30px 48px 30px;
+    max-height: 362px;
+    border-radius: 20px;
+}
+
+.title {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.payment{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.amountTitle{
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+}
+
+.amountValue{
+    margin-top: 10px;
+    padding: 0px  15px;
+    width: 218px;
+    height: 60px;
+    background-color: rgb(36, 11, 36);
+    border-radius: 15px;
+    color: rgb(210, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.adressTitle {
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+}
+
+.adress {
+    margin-top: 10px;
+    padding: 0px  15px;
+    width: 392px;
+    height: 60px;
+    background-color: rgb(36, 11, 36);
+    border-radius: 15px;
+    color: rgb(210, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.attention {
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(164, 164, 164);
+
+    &:first-child{
+        margin-top: 15px;
+    };
+    
+    &::before{
+        content: "•";
+        color: rgba(100, 97, 152, 1);
+        margin-right: 5px;
+    }
+}
